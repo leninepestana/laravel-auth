@@ -59,5 +59,9 @@ class LoginController extends Controller
             : redirect($this->redirectAfterLogout);
     }
 
+    public function username()
+    {
+        return 'username';
+    }
   
 }
